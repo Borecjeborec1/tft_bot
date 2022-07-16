@@ -1,18 +1,20 @@
 {
-  "dependencies": {
-    "bindings": "^1.5.0",
-    "lepikjs": "^1.2.17",
-    "node-addon-api": "^5.0.0"
-  },
-  "scripts": {
-    "build": "node-gyp rebuild"
-  },
   "gypfile": true,
   "name": "screenreco",
   "version": "1.0.0",
   "main": "index.js",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "scripts": {
+    "build": "node-gyp rebuild"
+  },
+  "author": "borecjeborec1",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^5.0.0"
+  },
+  "devDependencies": {
+    "lepikjs": "^1.2.17"
+  }
 }
