@@ -6,7 +6,6 @@ canvas.pack()
 
 file1 = open("capture.txt")
 arr = json.load(file1)
-print(arr)
 
 
 def get_col(rgb):
