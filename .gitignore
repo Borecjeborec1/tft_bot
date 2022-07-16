@@ -1,0 +1,5 @@
+build/
+node_modules/
+images/
+data/
+capture.txt
